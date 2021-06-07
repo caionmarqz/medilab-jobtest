@@ -46,6 +46,12 @@ public class ExamService {
 		Exam entity = obj.orElseThrow(() -> new ResourceNotFoundException("Resource not found"));
 		return new ExamDTO(entity);
 	}
+	
+//	public ExamDTO findPatientByPID(String pid) {
+//		Exam entity = examRepository.findPatientByPID(pid);
+//		return new ExamDTO(entity);
+//	}
+	
 
 	public void delete(Long id) {
 		try {

@@ -66,6 +66,12 @@ public class ExamController {
 		return ResponseEntity.ok(updated);
 	}
 	
+//	@GetMapping("/search/{PID}")
+//	public ResponseEntity<ExamDTO> findPatientByPID(@PathVariable("PID") String pid) {
+//		ExamDTO client = examService.findPatientByPID(pid);
+//		return ResponseEntity.ok(client);
+//	}
+	
 	
 	
 
